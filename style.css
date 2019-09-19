@@ -2,10 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: 'Cinzel', serif;
+  background-image: url("images/cucci pose.jpg");
 }
 
 img {
-  width: 100px;
+  width: 180px;
+  background: transparent;
+}
+header {
+  background: transparent;
 }
 
 h1 {
@@ -13,29 +18,34 @@ h1 {
   width: 100%;
   height: auto;
   margin-top: 0px;
-
+  background: transparent;
 }
 
 nav {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  background: white;
-  position: fixed;
+  grid-template-columns: repeat(3, 1fr);
+  background: transparent;
   width: 100%;
+  text-decoration-color: white;
 }
 
 .nav-item {
-    text-align: center;
-    font-size: 18px;
-    padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+  background: transparent;
 }
 
 a {
   text-decoration: none;
-  color: gray;
+  color: white;
+  background: transparent;
 }
 
 p {
   font-size: 20px;
   margin: 10px 500px;
+  background: transparent;
+  color: white;
 }

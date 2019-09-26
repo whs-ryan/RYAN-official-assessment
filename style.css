@@ -1,19 +1,40 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Cinzel', serif;
-  background-image: url("images/cucci pose.jpg");
+  font-family: 'Montserrat', sans-serif;
 }
+/*Header section*/
 
-img {
-  width: 180px;
-  background: transparent;
-}
 header {
+  background-color: grey;
+  padding: 10px 30px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+}
+
+.hero-image {
+  background-image: url("images/cucci pose.jpg");
+  height: 100vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+.hero-image img {
+    width: 180px;
+    background: transparent;
+}
+
+.hero-image header {
   background: transparent;
 }
 
-h1 {
+.hero-image h1 {
   text-align: center;
   width: 100%;
   height: auto;
@@ -21,7 +42,7 @@ h1 {
   background: transparent;
 }
 
-nav {
+.hero-image nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background: transparent;
@@ -29,23 +50,74 @@ nav {
   text-decoration-color: white;
 }
 
-.nav-item {
-  text-align: center;
-  font-size: 18px;
-  padding: 10px;
-  color: white;
-  background: transparent;
-}
-
-a {
+.hero-image a {
   text-decoration: none;
   color: white;
   background: transparent;
+  font-family: 'Cinzel', serif;
 }
 
-p {
+/*INFO BOX 1*/
+
+.info-box-1 {
+  border: none;
+  width: 85%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.info-box-1 h2 {
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*INFOBOX 2*/
+.info-box-2 {
+  background-color: transparent;
+  grid-template-columns: repeat(3, 1fr);
+  width: 85%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(3, 0, 0, 0.4);
+}
+
+.info-box-2 h2 {
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.col-3{
+  width: 300px;
+  background-color: var(--light);
+  border: 2px solid var(--dark);
+  display: inline-block;
+  margin: 20px 40px;
+  padding: 10px;
+  border-radius: 15px;
+  max-height: 350px
+  text-align: center;
+}
+
+.col-3 img {
+  width: 300px;
+  height: 200px;
+}
+
+
+footer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  background-color: grey;
+  text-align: center;
+  padding: 40px;
+  bottom: 0%;
   font-size: 20px;
-  margin: 10px 500px;
-  background: transparent;
-  color: white;
 }
